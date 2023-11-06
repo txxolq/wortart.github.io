@@ -1,0 +1,452 @@
+body{
+    overflow-x: hidden;
+    background-size: 100%;
+    background-attachment: fixed;
+    margin: 0;
+}
+.p1{
+    background-image: url(основа.png);
+    height: 723vh;
+    top: 0vh;
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+.menu{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    right: 260px;
+    top: 30px;
+}
+.menu-item{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 100px;
+}
+.logo{
+    position: absolute;
+    left: 1%;
+    top: 0%;
+}
+.logo2{
+    position: absolute;
+    right: -1%;
+    top: -23%;
+}
+.logo2 img{
+    -webkit-filter: brightness(65%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+     transition: all 1s ease;
+}
+.logo2 img:hover{
+    -webkit-filter: brightness(145%);
+}
+.o{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 100px;
+    font-size: 135%;
+}
+.o1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 83%;
+    top: 3%;
+    text-decoration: none;
+}
+.o2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 84%;
+    top: 6%;
+    text-decoration: none;
+}
+.b{
+    position: absolute;
+    right: 42%;
+    top: 30%;
+}
+.b img{
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}          
+.b img{
+    -webkit-filter: blur(8px);
+}
+.b0{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    position: absolute;
+    left: 22%;
+    top: 30%;
+}
+.b1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    position: absolute;
+    left: 32%;
+    top: 37%;
+}
+.b2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    position: absolute;
+    left: 28%;
+    top: 44%;
+}
+.b3{
+    position: absolute;
+    left: 28%;
+    top: 70%;
+}
+.b4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    position: absolute;
+    right: 59%;
+    top: 74.6%;
+    font-size: 20px;
+}
+.e{
+    position: absolute;
+    left: 22%;
+    top: 126%;
+}
+.e img{
+    -webkit-filter: brightness(90%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+     transition: all 1s ease;
+}  
+.e img:hover{
+    -webkit-filter: brightness(120%);
+}
+.e2{
+    position: absolute;
+    right: -4%;
+    top: 176%;
+}
+.e3{
+    position: absolute;
+    left: 22%;
+    top: 240%;
+}
+.e3 img{
+    -webkit-filter: brightness(90%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+     transition: all 1s ease;
+}  
+.e3 img:hover{
+    -webkit-filter: brightness(120%);
+}
+.e4{
+    color: rgb(206, 206, 206);
+    font-size: 8px;
+    position: absolute;
+    right: 22%;
+    top: 145%;
+}
+.e5{
+    color: rgb(206, 206, 206);
+    font-size: 8px;
+    position: absolute;
+    left: 30%;
+    top: 260%;
+}
+.e6{
+    color: rgb(111, 111, 76);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 9px;
+    position: absolute;
+    left: 37%;
+    top: 158%; 
+}
+.e7{
+    color: rgb(111, 111, 76);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 9px;
+    position: absolute;
+    right: 29%;
+    top: 265%; 
+}
+.e8{
+    position: absolute;
+    left: 0%;
+    top: 308%;
+}
+.e8 img{
+    -webkit-filter: brightness(80%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+     transition: all 1s ease;
+}  
+.e8 img:hover{
+    -webkit-filter: brightness(60%);
+}
+.u{
+    position: absolute;
+    left: 10.5%;
+    top: 391%;
+}
+.u img{
+    -webkit-filter: brightness(65%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+     transition: all 1s ease;
+}  
+.u img:hover{
+    -webkit-filter: brightness(50%);
+}
+.u1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    position: absolute;
+    left: 46%;
+    top: 376%;
+}
+.u2{
+    position: absolute;
+    left: 40%;
+    top: 391%;
+}
+.u2 img{
+    -webkit-filter: brightness(65%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+     transition: all 1s ease;
+}  
+.u2 img:hover{
+    -webkit-filter: brightness(50%);
+}
+.u3{
+    position: absolute;
+    left: 70%;
+    top: 391%;
+}
+.u3 img{
+    -webkit-filter: brightness(65%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+     transition: all 1s ease;
+}  
+.u3 img:hover{
+    -webkit-filter: brightness(50%);
+}
+.u4{
+    position: absolute;
+    left: 3%;
+    top: 458%;
+}
+.u4 img{
+    -webkit-filter: brightness(65%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+     transition: all 1s ease;
+}  
+.u4 img:hover{
+    -webkit-filter: brightness(145%);
+}
+.u5{
+    position: absolute;
+    left: 25%;
+    top: 455%;
+}
+.u5 img{
+    -webkit-filter: brightness(65%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+     transition: all 1s ease;
+}  
+.u5 img:hover{
+    -webkit-filter: brightness(145%);
+}
+.u6{
+    position: absolute;
+    left: 50%;
+    top: 455%;
+}
+.u6 img{
+    -webkit-filter: brightness(65%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+     transition: all 1s ease;
+}
+.u6 img:hover{
+    -webkit-filter: brightness(145%);
+}
+.u7{
+    position: absolute;
+    left: 75%;
+    top: 458%;
+}
+.u7 img{
+    -webkit-filter: brightness(65%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+     transition: all 1s ease;
+}
+.u7 img:hover{
+    -webkit-filter: brightness(145%);
+}
+.f1{
+    position: absolute;
+    left: 10%;
+    top: 520%;
+}
+.f2{
+    position: absolute;
+    right: 10%;
+    top: 520%;
+}
+.f3{
+    position: absolute;
+    right: 39%;
+    top: 550%;
+}
+.f3 img{
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}          
+.f3 img{
+    -webkit-filter: blur(10px);
+}
+.f4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    position: absolute;
+    right:47.5%;
+    top:555%;
+    font-size: 33px;
+}
+.g{
+    position: absolute;
+    left: 1%;
+    top:613% ;
+}
+.g1{
+    position: absolute;
+    left: 38%;
+    top:620% ;
+}
+.g1 img{
+    -webkit-filter: brightness(65%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+     transition: all 1s ease;
+}
+.g1 img:hover{
+    -webkit-filter: brightness(145%);
+}
+.g2{
+    color: rgb(174, 191, 90);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    left: 3%;
+    top: 700%;
+}
+.g4{
+    position: absolute;
+    left: 3%;
+    top:708% ;
+}
+.g4:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.g5:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.g7{
+    position: absolute;
+    left: 28.8%;
+    top:695% ;
+}
+.g8{
+    position: absolute;
+    left: 27.5%;
+    top:700% ;
+}
+.g9{
+    position: absolute;
+    left: 29%;
+    top:710% ;
+}
+.g10{
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(174, 191, 90);
+    text-decoration: none;
+    position: absolute;
+    left:32%;
+    top:692%;
+    font-size: 20px;
+}
+.g11{
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(174, 191, 90);
+    text-decoration: none;
+    position: absolute;
+    left:32%;
+    top:707%;
+    font-size: 20px;
+}
+.g12{
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(174, 191, 90);
+    text-decoration: none;
+    position: absolute;
+    left:32%;
+    top:700%;
+    font-size: 20px;
+}
+.g13{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(174, 191, 90);
+    text-decoration: none;
+    position: absolute;
+    left:70%;
+    top:712%;
+    font-size: 18px;
+}
